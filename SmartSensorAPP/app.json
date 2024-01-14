@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "SmartSensorAPP",
+    "slug": "SmartSensorAPP",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/cool.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splashcool.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "assetBundlePatterns": [
+      "assets/*",
+      "node_modules/react-native-vector-icons/Fonts/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#000000"
+      },
+      "package": "com.roger_sh.SmartSensorAPP"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "6fdb96be-82ee-46f6-b88b-8070ce516d55"
+      }
+    }
+  }
+}
